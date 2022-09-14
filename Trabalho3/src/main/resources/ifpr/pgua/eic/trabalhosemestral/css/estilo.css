@@ -1,0 +1,77 @@
+.root{
+    -fx-background-color: #ABB3B6;
+    -fx-border-color: #ABB3B6;
+    -fx-border-insets: 15 ;
+    -fx-border-color: black;
+    -fx-spacing: 15;
+}
+
+.children{
+    -fx-padding: 20;
+    -fx-background-color: #fdfdfd;
+}
+
+.painel-central{
+    -fx-padding: 20;
+    -fx-background-color: #ffffff;
+}
+
+.combo-box{
+    
+    
+    
+    -fx-text-fill:white;
+    -fx-alignment: center;
+    -fx-spacing: 15;
+    -fx-border-color: black;
+    -fx-pref-width: 200px
+    
+ 
+}
+
+
+.text-field{
+    -fx-background-color:#5A1122;
+    -fx-text-fill:white;
+    -fx-alignment: center;
+    
+    -fx-alignment: center;
+}
+
+.label{
+    -fx-cell-size: 25;
+    -fx-text-fill: #5A1122;
+    
+}
+
+.button{
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: #5A1122;
+    -fx-padding: 10px 20px 10px 20px;    
+    -fx-pref-width: 200px;
+}
+
+
+
+.list-view{
+    -fx-font-size: 15;
+    -fx-border-color: black;
+}
+
+.text-area{
+    -fx-font-size: 15;
+}
+
+.mostraCurso{
+    -fx-font-size: 15;
+}
+
+.cadastrar{
+    -fx-text-fill: #8FBC8F;
+}
+
+.limpar{
+    -fx-text-fill: #fa0000;
+}

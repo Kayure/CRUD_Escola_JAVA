@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<HBox xmlns="http://javafx.com/javafx" 
+      xmlns:fx="http://javafx.com/fxml" 
+      prefHeight="400" prefWidth="600"
+      fx:controller="ifpr.pgua.eic.trabalhosemestral.telas.Lista"
+      spacing="10.0"
+      >
+
+      
+      <padding>
+          <Insets topRightBottomLeft="20.0"/>
+      </padding>
+
+      
+                    
+      
+      <HBox spacing = "10.0">
+        <Label text="ALUNOS"></Label> 
+        <ListView fx:id="ltvAlunos" layoutX="25.0" layoutY="153.0" prefHeight="550.0" prefWidth="250.0"   />
+        <Label text="PROFESSORES"></Label> 
+        <ListView fx:id="ltvProfessores" layoutX="25.0" layoutY="153.0" prefHeight="550.0" prefWidth="250.0"   />
+        <Label text="CURSOS"></Label> 
+        <ListView fx:id="ltvCursos" layoutX="25.0" layoutY="153.0" prefHeight="550.0" prefWidth="250.0"   />
+      </HBox>
+      
+      
+      
+
+</HBox>

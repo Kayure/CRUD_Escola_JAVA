@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="5.0" 
+      xmlns="http://javafx.com/javafx/8.0.171" 
+      xmlns:fx="http://javafx.com/fxml/1" 
+      fx:controller="ifpr.pgua.eic.trabalhosemestral.telas.CadastroAluno">
+
+    <Label text="CADASTRO DE ALUNOS"></Label>
+
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    
+    <Label text="Nome" />
+    <TextField fx:id="tfNome" />
+
+    <Label text="Telefone"/>
+    <TextField fx:id="tfTelefone"/>
+
+    <Label text="Email"/>
+    <TextField fx:id="tfEmail"/>
+
+    <Label text="Cpf"/>
+    <TextField fx:id="tfCpf"/>
+
+    <Label text="Data Matricula"/>
+    <DatePicker fx:id="dtDataMatricula"/>
+
+    <VBox spacing = "5.0" >
+        <Button text = "Cadastrar" prefWidth="80" onAction = "#cadastrar" styleClass="botaoAdicionar"/>
+        
+    </VBox>
+    
+</VBox>

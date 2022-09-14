@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane
+   xmlns="http://javafx.com/javafx/8.0.171" 
+   xmlns:fx="http://javafx.com/fxml/1" 
+   fx:controller="ifpr.pgua.eic.trabalhosemestral.telas.JanelaPrincipal"
+   stylesheets="@../css/estilo.css" 
+   prefWidth="600" prefHeight="400"
+   >      
+      
+    <left>
+      <VBox spacing="5.0">
+         <padding>
+            <Insets topRightBottomLeft="8.0" /> 
+         </padding>
+         <!-- <Label text="-CADASTROS-"/> -->
+         <Button text="Cadastrar Aluno"  onAction="#carregaTelaCadastroAluno"/>
+         <Button text="Cadastrar Curso" onAction="#carregaTelaCadastroCurso"/>
+         <Button text="Cadastrar Professor" onAction="#carregaTelaCadastroProf"/>
+
+         <!-- <Label text="-LISTAS-"/> -->
+          <Button text="Listas" onAction="#carregaTelaListas"/>
+          <Button text="Alunos Matriculados" onAction="#carregaTelaListaMatriculados"/>
+         
+        <!-- <Label text="-MATRICULA"/> -->
+         <Button text="Realizar Matrícula" onAction="#carregaTelaMatriculaAluno"/>
+
+         <!-- <ToggleButton styleClass="temaDark" fx:id="btTema" mnemonicParsing="false" onAction="#mudaTema" text="DarkMode" /> -->
+         
+      </VBox>     
+   </left>
+      
+   <center>
+      <StackPane fx:id = "" />
+   </center>
+
+</BorderPane>
